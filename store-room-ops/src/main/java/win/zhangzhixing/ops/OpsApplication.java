@@ -1,11 +1,11 @@
-package win.zhangzhixing.service;
+package win.zhangzhixing.ops;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ServiceApplication {
+public class OpsApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ServiceApplication.class, args);
+        SpringApplication.run(OpsApplication.class, args);
     }
 }
